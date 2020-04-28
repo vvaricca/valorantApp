@@ -1,0 +1,19 @@
+head,body {
+	background-color : #474D4F ;
+}
+
+h2 {
+	font-weight : bold ;
+	color : #FFC400 ;
+	text-decoration: underline #FFC400;
+}
+
+p {
+	color : #FFC400 ;
+	display : inline-block ;
+	position : relative ;
+}
+
+div.perso {
+	text-align : left ;
+}
