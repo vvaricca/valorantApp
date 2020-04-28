@@ -8,10 +8,17 @@ h2 {
 	text-decoration: underline #FFC400;
 }
 
+h3 {
+	font-weight : bold ;
+	color : #FFC400 ;
+}
+
 p {
 	color : #FFC400 ;
 	display : inline-block ;
 	position : relative ;
+	margin-left : 10% ;
+	/*padding :  ;*/
 }
 
 div.perso {
