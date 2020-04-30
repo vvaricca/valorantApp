@@ -1,20 +1,41 @@
-head,body {
-	background-color : #474D4F ;
+
+@font-face {
+    font-family: 'zector';
+    src: url('../font/Zector.otf') format('truetype');
+}
+
+html {
+	height:100%;
+}
+
+body {
+	min-height: 100%;
+	margin:0;
+	background-image : url("../img/fond.png");
+	position:relative;
+}
+
+.onglet {
+	font-family: zector;
+	border: groove white 3px;
+	margin:2%;
+	padding:1%;
+	background-color: rgb(25,35,35);
 }
 
 h2 {
 	font-weight : bold ;
-	color : #FFC400 ;
-	text-decoration: underline #FFC400;
+	color : rgb(220,55,55) ;
+	text-decoration: underline white;
 }
 
 h3 {
 	font-weight : bold ;
-	color : #FFC400 ;
+	color : white ;
 }
 
 p {
-	color : #FFC400 ;
+	color : white ;
 	display : inline-block ;
 	position : relative ;
 	margin-left : 10% ;
