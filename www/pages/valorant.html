@@ -13,6 +13,8 @@
 		
 		<link rel="stylesheet" type="text/css" href="../css/general.css">
 		<link rel="stylesheet" type="text/css" href="../css/wiki.css">
+		<!-- bootsrap cdn a mettre comme au dessus le jour ou je deploi le site " en dur " -->
+		<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 	
 	
 	
@@ -23,16 +25,56 @@
 	<body>
 	
 	<header>
-		Logo/Titre de l'app
-		Menu
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		
+		<!-- <div class="collapse navbar-collapse" id="navbarColor02"> -->
+		
+			<ul class="navbar-nav mr-auto">
+			
+			<li class="nav-item">
+		
+				<a class="nav-link" href="#">Home</a>
+		
+				</li>
+		
+				<li class="nav-item">
+		
+				<a class="nav-link" href="#">Wiki</a>
+		
+				</li>
+		
+				<!-- <li class="nav-item"> 
+		
+				<a class="nav-link" href="#">LOGO</a>
+		
+				 </li> -->
+		
+				<li class="nav-item">
+		
+				<a class="nav-link" href="#">Historique</a>
+		
+				</li>
+		
+				<li class="nav-item">
+		
+				<a class="nav-link" href="#">Stats</a>
+		
+				</li>
+			</ul>
+  <!-- </div> -->
+</nav>
+		<!-- Logo/Titre de l'app
+		 Menu -->
 	</header>
 	
 	<main>
 		<!-- Partie Personnages du jeu -->
+		 
 		<div class='onglet'>
-			<h2>Personnages</h2>
+			<a href="personnages.html" >
+				<h2>Personnages</h2>
 			
-			<div class="perso">
+			<!-- <div class="perso">
 				<p>
 				Nom : Breach</br>  
 				</br>
@@ -100,16 +142,19 @@
 				Catégorie : Contrôleur</br>
 				</p>
 				
-			</div>
+			</div>-->
+			</a>
 		</div>
+		
 		
 		
 		
 		<!-- Partie Carte du jeu -->
 		<div class='onglet'>
+		<a href="cartes.html" >
 			<h2>Cartes</h2>
 			
-			<div class="carte">
+			<!-- <div class="carte"> 
 				<p>
 				Nom : Bind </br> 
 				</br>
@@ -129,7 +174,8 @@
 				Lieu :</br> 
 				</p>
 				
-			</div>
+			</div>-->
+			</a>
 		</div>
 		
 		
@@ -137,9 +183,10 @@
 		
 		<!-- partie Arme du jeu -->
 		<div class='onglet'>
+		<a href="armes.html" >
 			<h2>Armes</h2>
 			
-			<div class="armes">
+			<!-- <div class="armes"> 
 				
 				<h3>SMG</h3></br>
 				</br>
@@ -175,7 +222,7 @@
 				<!--Tire primaire : Semi-automatique / Cadence de tir : 1,1 balles / sect
 					Tire secondaire : Semi-automatique / Cadence de tir 1,1 balles / sec
 					-->
-				Dégâts : 22 corps / 44 tête / 19 jambe entre 0 et 8 m</br>
+				<!-- Dégâts : 22 corps / 44 tête / 19 jambe entre 0 et 8 m</br> 
 				</br>
 				Dégâts : 17 corps / 34 tête / 14 jambe entre 8 et 12 m</br>
 				</br>
@@ -219,7 +266,7 @@
 					 Cadence de tir : 11 balles/s
 					 Tir secondaire : Mode zoom (1.25x) → réduction de la taille du spray / Cadence de tir : 9,9 balles/s
 					 Capacité du chargeur : 30 balles-->
-				</br>
+				<!-- </br> 
 				Dégâts : 39 corps / 156 tête / 33 jambe entre 0 et 15 m</br> 
 				</br>
 				Dégâts : 35 corps / 140 tête / 30 jambe entre 15 et 30 m</br>
@@ -308,7 +355,7 @@
 				<!--Tir primaire : automatique
 					Cadence de tir : 10 balles/s
 					Capacité du chargeur : 13 balles-->
-				Dégâts : 26 corps / 78 tête / 22 jambe entre 0 et 20 m</br>
+				<!-- Dégâts : 26 corps / 78 tête / 22 jambe entre 0 et 20 m</br> 
 				</br>
 				Dégâts : 21 corps / 63 tête / 17 jambe entre 20 et 50 m</br> 
 				</p>
@@ -319,7 +366,7 @@
 				Prix : 500 ¤</br> 
 				<!--Tir primaire : Semi-automatique / Cadence de tir : 6,75 balles/s
 					Capacité du chargeur : 15 balles-->
-				</br>
+				<!-- </br> 
 				Dégâts : 30 corps / 105 tête / 26 jambe entre 0 et 30 m</br>
 				</br>
 				Dégâts : 25 corps / 88 tête / 21 jambe entre 30 et 50 m</br>
@@ -353,7 +400,9 @@
 				Prix : 1 000 ¤</br> 
 				</br>
 				</p>
-			</div>
+			</div>-->
+			</a>
+
 		</div>
 	</main>
 	

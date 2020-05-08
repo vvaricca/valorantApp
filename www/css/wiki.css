@@ -16,20 +16,43 @@ body {
 }
 
 .onglet {
+	margin-bottom: 4% ;
 	font-family: zector;
 	border: groove white 3px;
-	margin:2%;
-	padding:1%;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: rgb(25,35,35);
+	width:15%;	
+}
+
+ul{
+    width: 80%;
+    margin: auto;
+}
+
+a {
+	color : rgb(220,55,55) !important;
+}
+
+li{
+	color : rgb(220,55,55);
+    margin: auto;
 }
 
 h2 {
-	font-weight : bold ;
-	color : rgb(220,55,55) ;
+	text-shadow: 0px 0px 10px rgb(220,55,55) ;
+	text-align: center ;
+	margin:4% !important;
+	padding: 2% ;
+	font-size : 2vw !important ;
+	font-weight : bold !important ;
+	color : rgb(220,55,55) !important ;
 	text-decoration: underline white;
+	border: groove white 3px;	
 }
 
 h3 {
+	font-size : 150% ;
 	font-weight : bold ;
 	color : white ;
 }
