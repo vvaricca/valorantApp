@@ -4,6 +4,7 @@
     src: url('../font/Zector.otf') format('truetype');
 }
 
+
 html {
 	height:100%;
 }
@@ -15,19 +16,28 @@ body {
 	position:relative;
 }
 
+nav{
+	font-size: 1vw ;
+}
+
 .onglet {
-	margin-bottom: 4% ;
+	margin-bottom: 8% ;
 	font-family: zector;
 	border: groove white 3px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: rgb(25,35,35);
-	width:15%;	
+	width:20%;	
+}
+
+main {
+	margin-top: 5vw ;
 }
 
 ul{
     width: 80%;
     margin: auto;
+	flex-direction: row !important ;
 }
 
 a {
@@ -44,11 +54,11 @@ h2 {
 	text-align: center ;
 	margin:4% !important;
 	padding: 2% ;
-	font-size : 2vw !important ;
 	font-weight : bold !important ;
 	color : rgb(220,55,55) !important ;
 	text-decoration: underline white;
-	border: groove white 3px;	
+	border: groove white 3px;
+	font-size: 2.5vw !important ;
 }
 
 h3 {
@@ -62,9 +72,50 @@ p {
 	display : inline-block ;
 	position : relative ;
 	margin-left : 10% ;
-	/*padding :  ;*/
 }
 
 div.perso {
 	text-align : left ;
+}
+
+
+@media (max-width: 1050px) {
+    nav{
+        font-size: 2vw ;
+    }
+	
+	.onglet{
+		width: 30% ;
+		margin-bottom: 10% ;
+		
+	}
+	
+	main{
+		margin-top: 30vw ;
+	}
+	
+	h2{
+		font-size: 4vw !important ;
+	}
+}
+
+
+@media (max-width: 650px) {
+    nav{
+        font-size: 3.5vw ;
+    }
+	
+	.onglet{
+		width: 60% ;
+		margin-bottom: 20% ;
+		
+	}
+	
+	main{
+		margin-top: 40vw ;
+	}
+	
+	h2{
+		font-size: 7vw !important ;
+	}
 }
